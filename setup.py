@@ -14,10 +14,11 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/omarabid59/test_repo1/",
-    packages=find_packages(),
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ],
+    package_dir={"": "src"},
+    packages=find_namespace_packages(where="src")
 )
