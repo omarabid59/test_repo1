@@ -1,0 +1,5 @@
+# Files
+*.eggs
+
+# Folders
+**__pycache__/
