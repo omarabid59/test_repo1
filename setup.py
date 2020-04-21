@@ -19,6 +19,5 @@ setup(
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ],
-    package_dir={"": "src"},
-    packages=find_namespace_packages(where="src")
+    packages=['test_repo1_od'],
 )
